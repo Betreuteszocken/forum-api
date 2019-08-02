@@ -1,0 +1,30 @@
+{
+    "name": "Betreuteszocken/forum-api",
+    "homepage": "https://github.com/Betreuteszocken/forum-api",
+    "description": "An api returning user's necessary custom woltlab counter strike settings.",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Falko Matthies",
+            "email": "falko.m@web.de"
+        }
+    ],
+    "keywords": [
+        "api",
+        "cs1.6",
+        "csgo",
+        "wbb"
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^3.4",
+        "php": "^7.3",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Betreuteszocken\\ForumApi\\": "src/"
+        }
+    }
+}

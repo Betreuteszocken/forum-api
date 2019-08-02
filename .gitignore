@@ -1,0 +1,14 @@
+/.idea/*
+!/.idea/codeStyles/
+!/.idea/dictionaries/
+!/.idea/encodings.xml
+!/.idea/inspectionProfiles/
+!/.idea/misc.xml
+!/.idea/symfony2.xml
+
+/.env
+/vendor
+
+/public/.htaccess
+
+php_errors.log
