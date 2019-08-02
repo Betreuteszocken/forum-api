@@ -1,6 +1,6 @@
 # Forum Api
 
-[![LICENSE](https://img.shields.io/badge/release-0%2E0-blue.svg?style=flat)](hhttps://github.com/Betreuteszocken/forum-api/releases/tag/0.0)
+[![Release](https://img.shields.io/badge/release-0%2E0-blue.svg?style=flat)](hhttps://github.com/Betreuteszocken/forum-api/releases/tag/0.0)
 [![Packagist](https://img.shields.io/badge/Packagist-0%2E0-blue.svg?style=flat)](https://packagist.org/packages/Betreuteszocken/forum-api)
 [![LICENSE](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 [![PHP v7.3](https://img.shields.io/badge/PHP-%E2%89%A57%2E3-0044aa.svg)](https://www.php.net/manual/en/migration73.new-features.php)
@@ -9,13 +9,13 @@ A project to fetch and deliver custom [Woltlab Forum](https://www.woltlab.com/) 
 
 ## Table of Contents
 
-* [Integration & Set Up](#integration-set-up)
+* [Integration & Set Up](#integration--set-up)
   * [Requirements](#requirements)
   * [Installation](#installation)
   * [Configuration](#configuration)
 
 
-## Integration & Configuration
+## Integration & Set Up
 
 ### Requirements
 
