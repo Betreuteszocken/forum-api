@@ -11,8 +11,7 @@ A project to fetch and deliver custom [Woltlab Forum](https://www.woltlab.com/) 
 
 * [Integration & Set Up](#integration--set-up)
   * [Requirements](#requirements)
-  * [Installation](#installation)
-  * [Configuration](#configuration)
+  * [Installation](#installation-and-set-up)
 
 
 ## Integration & Set Up
@@ -22,19 +21,20 @@ A project to fetch and deliver custom [Woltlab Forum](https://www.woltlab.com/) 
 The usage of [**PHP v7.3**](https://www.php.net/manual/en/migration73.new-features.php) is obligatory.
 
 
-### Installation
+### Installation and Set-Up
 
-Please install the project via [composer](https://getcomposer.org/).
+Please clone the project via git.
 
 ```bash
-composer require Betreuteszocken/forum-api "^0.0"
+git clone git@github.com:Betreuteszocken/forum-api.git
+composer install
 ```
 
-### Configuration
+And run [composer](https://getcomposer.org/) afterwards to install all dependencies.
 
-1. Copy the [/.env.dist](.env.dist) file to `/.env` and set up all included variables properly.
+```bash
+cd forum-api/
+composer install
+```
 
-1. Copy the [/public/.htaccess.dist](public/.htaccess.dist) file to `/public/.htaccess` and set up your rules.
-
-
-## Usage
+Copy the [/.env.dist](.env.dist) file to `/.env` and set up all included variables properly.
