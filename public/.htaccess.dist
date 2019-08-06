@@ -1,8 +1,0 @@
-<RequireAll>
-    Require method GET HEAD
-    <RequireAny>
-        Require ip 127.0.0.1
-    </RequireAny>
-</RequireAll>
-
-SetHandler application/x-httpd-php
